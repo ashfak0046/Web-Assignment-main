@@ -209,6 +209,7 @@ body{
 }
 .leading-youtube a{
 	text-decoration: none;
+	color: dimgray;
 }
 .department{
 	margin-top:20%;
