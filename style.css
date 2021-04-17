@@ -1,0 +1,262 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background-color:white;
+	font-family: 'Roboto', sans-serif;
+}
+/* Header Portion */
+#header{
+	background-color:#455a64;
+	padding:10px;
+	border-bottom:0.5px solid lightslategray;
+	display: flex;
+	flex-wrap:wrap;
+}
+#header h2{
+	color:whitesmoke;
+	font-family:georgia;
+	margin-top: 80px;
+	font-size: 40px;
+	margin-left: 10px;
+}
+#header p{
+	color:lightsteelblue;
+	font-family:georgia;
+	margin-top: 110px;
+}
+#header img{
+	width: 150px;
+	margin-left: 100px;
+}
+
+/* Navigation Portion */
+#nav{
+	background-color:#455a64;
+	height:38px;
+	border-bottom:1px solid lightslategray;
+	margin-bottom: 5px;
+}
+#nav ul{
+	background-color:#455a64;
+	list-style-type:none;
+	z-index:999;
+}
+#nav ul li{
+	float:left;
+	border-right:1px solid lightslategray;
+}
+#nav ul li:last-child{
+	border:none
+}
+#nav ul li a{
+	text-decoration:none;
+	color:rgba(255, 255, 255, 0.5);
+	display:block;
+	padding:10px 20px;
+	font-family:arial;
+}
+#nav ul li a:hover{
+	color:#fff;
+	background-color:rgba(255, 255, 255, 0.5) ;
+}
+#nav ul li{
+	position:relative;
+}
+#nav ul li ul{
+	position:absolute;left:-99999px;
+	background:#455a64;
+}
+#nav ul li:hover ul{
+	left:0;
+}
+#nav ul li ul li:first-child{
+	border-top:1px solid lightslategray;
+}
+#nav ul li ul li{
+	float:none;
+	border-right:none;
+	border-bottom:1px solid lightslategray;
+	width:200px;
+}
+/* Slider Portion */
+#slider_wrapper{
+	width: 70%;
+	margin: auto;
+}
+/* Content Portion */
+#content_wrapper{
+	background-color:#fff;
+	padding:10px;
+	overflow:hidden;
+}
+#content{
+	width:50%;
+	margin-right:20px;
+	float:left;
+	margin-left:5%;
+}
+#content h2{
+	color:lightslategrey;
+	font-family:arial;
+	margin-bottom:5px;
+	margin-top:10px;
+	font-weight: bold;
+}
+/* Facility Portion */
+.facility-wrapper{
+		display: flex;
+		flex-wrap: nowrap;
+		background-color:#EEEE;
+		margin-top: 20px;
+		margin-bottom: 60px;
+		
+
+}
+#campus-facility{
+	margin-top: 60px;
+	font-size: 30px;
+	color:#455a64;
+	font-weight: bold;
+}
+.facility-wrapper div{
+	background-color:#fff;	
+	margin: 10px;
+	width: 400px;
+	padding: 5px;
+	height: 300px;
+	text-align: center;
+	line-height: 30px;
+	transition: 1s all ease;
+		
+}
+.facility-wrapper div:hover {
+	box-shadow: 10px 10px 30px gray;
+}
+.facility-wrapper h3{
+	color:#455a64;
+	font-weight: bold;
+}
+.small-margin{
+	color:#c3d136;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	padding: 5px;
+}
+/* Side-bar Portion */
+#sidebar{
+	width:30%;
+	float:left;
+	margin-left: 8%;
+	background: #EEEE;
+	padding: 20px;
+	border-radius: 10px;
+}
+#sidebar ul{
+	list-style-type: style circle;
+	margin-left: 35px;
+}
+#sidebar ul li a{
+	text-decoration:none;
+	color:gray;
+	padding:3px;
+	font-weight: bold;
+	
+}
+#sidebar ul li:hover a{
+	color:#c3d136;
+}
+#notice{
+	color:#c3d136;
+	padding: 5px;
+	font-weight: bold;
+}
+.admission{
+	margin-top: 20%;
+	background-color: #c3d136;
+	padding:5px;
+	width: 300px;
+	height: 100px;
+	border-radius: 10px;
+	margin-left:15%;
+}
+.admission h2{
+	color: white;
+	margin-top: 15px;
+	text-align: center;	
+}
+.sheik-mujib{
+	margin-left: 17%;
+	margin-top: 10%;
+}
+.youtube-wrapper{
+	background-color: #fff;
+	padding: 10px;
+	width: 300px;
+	margin-left: 15%;
+	margin-top: 10%;
+	color:#c3d136;
+	border-radius: 5px;
+}
+.youtube-wrapper img{
+	width: 40px;
+	padding: 10px;
+}
+.leading-youtube{
+	display: flex;
+	align-items: center;
+}
+.leading-youtube a{
+	text-decoration: none;
+}
+.department{
+	margin-top:20%;
+	border:1px solid gray;
+	height: 500px;
+	border-radius: 5px;
+	width: 300px;
+	margin-left:17%;
+	background-color: white;
+	text-align: center;
+	padding: 10px;
+	
+}
+.department h2{
+	background-color:#EEEE;
+	padding: 10px;
+}
+.department :hover{
+	 background-color: #c3d136;
+}
+.department h2:last-child{
+	border: none;
+}
+/* Footer Portion */
+.footer{
+	margin-top: 5%;
+    text-align: center;
+	padding: 5px;
+    
+}
+.footer h2,h3{
+    color:dimgray;
+    font-weight:bold;
+}
+.footer img{
+    width:3%;
+    height: 5%;
+	margin:0.2%; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
