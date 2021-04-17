@@ -81,7 +81,7 @@ body{
 }
 /*  */
 span{
-    color: lightseagreen;
+    color: orange;
     transition: 1s all ease;
 }
 
@@ -157,7 +157,7 @@ span{
      margin-top:20px;
      width: 100%;
      text-decoration: none;
-    text-align: center;
+     text-align: center;
     
  }
  /* Footer Portion */

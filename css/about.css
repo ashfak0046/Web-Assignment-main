@@ -1,0 +1,191 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+/*  */
+#header{
+	background-color:#455a64;
+	padding:10px;
+	border-bottom:0.5px solid lightslategray;
+	display: flex;
+	flex-wrap:wrap;
+}
+#header h2{
+	color:whitesmoke;
+	font-family:georgia;
+	margin-top: 80px;
+	font-size: 40px;
+	margin-left: 10px;
+}
+#header p{
+	color:lightsteelblue;
+	font-family:georgia;
+	margin-top: 110px;
+}
+#header img{
+	width: 150px;
+	margin-left: 100px;
+}
+
+/* Navigation Portion */
+#nav{
+	background-color:#455a64;
+	height:38px;
+	border-bottom:1px solid lightslategray;
+	/* margin-bottom:2%; */
+}
+#nav ul{
+	background-color:#455a64;
+	list-style-type:none;
+	z-index:999;
+}
+#nav ul li{
+	float:left;
+	border-right:1px solid lightslategray;
+}
+#nav ul li:last-child{
+	border:none
+}
+#nav ul li a{
+	text-decoration:none;
+	color:rgba(255, 255, 255, 0.5);
+	display:block;
+	padding:10px 20px;
+	font-family:arial;
+}
+#nav ul li a:hover{
+	color:#fff;
+	background-color:rgba(255, 255, 255, 0.5) ;
+}
+#nav ul li{
+	position:relative;
+}
+#nav ul li ul{
+	position:absolute;left:-99999px;
+	background:#455a64;
+}
+#nav ul li:hover ul{
+	left:0;
+}
+#nav ul li ul li:first-child{
+	border-top:1px solid lightslategray;
+}
+#nav ul li ul li{
+	float:none;
+	border-right:none;
+	border-bottom:1px solid lightslategray;
+	width:200px;
+}
+/* About Section */
+.about h1{
+    font-size: 40px;
+}
+#blue{
+    color:rgb(66, 87, 155);
+}
+#lightsalmon{
+    color:lightsalmon;
+}
+.half-width{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about img{
+    width: 600px;
+}
+.about{
+    padding: 30px;
+}
+.about div{
+    padding: 20px;
+}  
+.about h1,h3{
+    margin:20px;    
+}
+/* Work Section */
+.work img{
+    width: 400px;
+}
+.work {
+    margin: 10px;
+}
+.work div{
+    padding: 20px;
+    width: 400px;
+    margin: 20px;
+    box-shadow: 10px 10px 30px grey;
+    border-radius: 10px;
+    background-color:lightyellow;
+}
+.work h1{
+    padding: 10px;
+    text-align: center;
+}
+#center{
+    text-align: center;
+    margin-top: 7%;
+}
+#link-button{
+    margin-left:10px;
+    color:white;
+    font-weight: bold;
+    text-decoration: none;
+    padding:10px 20px;
+    border-radius: 10px;
+    background-image: linear-gradient( rgb(223, 158, 132), tomato);
+}
+/* Work Inquiry Section */
+.working-area{
+    height: 300px;
+    margin-bottom: 150px;
+    
+}
+.working{
+    margin-left: 18%;
+    margin-top: 10%;
+    width: 60%;
+    height: 75%;
+    background-image: url("/img/Group_33094_1.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+.button{
+    float:right;
+    margin: 10% 5%;
+}
+.working h1{
+    font-size: 40px;
+    margin:4% 5%;
+    padding: 5% 2%;
+    float: left;
+    color:rgb(228, 230, 240);
+    
+}
+/* Footer Portion */
+.footer{
+	margin-top: 5%;
+    text-align: center;
+	padding: 5px;
+    
+}
+.footer h2,h3{
+    color:dimgray;
+    font-weight:bold;
+}
+.footer img{
+    width:3%;
+    height: 5%;
+	margin:0.2%; 
+}
+
+
+
+
+
+
